@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests" thread-count="3" >
+  <test name="Test" >
+    <classes>
+      <class name="com.atmecs.qa.tests.DashboardTest"/>
+      <class name="com.atmecs.qa.tests.DashboardToggleTest"/>
+      <class name="com.atmecs.qa.tests.DashboardProjectFilterTest"/>
+      <class name="com.atmecs.qa.tests.DownloadButtonTest"/>
+      <class name="com.atmecs.qa.tests.FailTCTest"/>
+      <class name="com.atmecs.qa.tests.PassTCTest"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC1"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC2"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC3"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC4"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC5"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC6"/>
+      <class name="com.atmecs.qa.tests.RecentRunsTestTC7"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!--  Testing -->
